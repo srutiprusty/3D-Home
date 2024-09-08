@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,800;1,6..12,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  width: 100vw;
+  height: 90vh;
+}
+
+
+body {
+  margin: 0;
+  padding-bottom: 5%;
+  overflow: hidden; /* Hides the scrollbar */
+}
+
+canvas {
+  display: block;                  /* Ensures the canvas fills the window without showing scrollbars */
+}
