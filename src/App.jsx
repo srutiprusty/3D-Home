@@ -7,7 +7,7 @@ import "./App.css"
 
 function App() {
   const redirectToWebsite = () => {
-    window.location.href = "http://localhost:5173/";
+    window.location.href = "https://real-estate-homyz-beige.vercel.app/";
   };
 
   return (
